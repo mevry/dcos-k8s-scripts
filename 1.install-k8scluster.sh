@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 #Create keypair, service account, & secret
 dcos security org service-accounts keypair kube1-priv.pem kube1-pub.pem 
 dcos security org service-accounts create -p kube1-pub.pem -d 'Service account for kubernetes-cluster1' kubernetes-cluster1
